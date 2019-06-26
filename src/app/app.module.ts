@@ -7,18 +7,25 @@ import { AppComponent } from './app.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { AgendaComponent } from './agenda/agenda.component';
+import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     AgendaComponent
+=======
+    BoiteAIdeeComponent
+>>>>>>> dev
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,
-    ScheduleModule
+    ScheduleModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
