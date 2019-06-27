@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ScheduleModule } from '@syncfusion/ej2-angular-schedule';
+import { ScheduleModule, DayService, WeekService, WorkWeekService, MonthService, AgendaService, MonthAgendaService } from '@syncfusion/ej2-angular-schedule';
 import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
@@ -39,7 +39,12 @@ import { QuartierComponent } from './quartier/quartier.component';
     ScheduleModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [DayService, 
+    WeekService, 
+   // WorkWeekService, 
+    MonthService,
+    AgendaService,
+    MonthAgendaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
