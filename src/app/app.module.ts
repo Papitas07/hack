@@ -51,7 +51,6 @@ import { DebatComponent } from './debat/debat.component';
     QuartierComponent
   ],
   imports: [
-    BrowserModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,
