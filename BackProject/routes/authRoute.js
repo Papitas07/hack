@@ -1,5 +1,5 @@
 const JWT = require('../helpers/jwtHelpers');
-const client = require('../helpers/customerHelpers');
+const client = require('../helpers/citizenHelpers');
 const jwt = require('jsonwebtoken');
 const passport = require('passport');
 

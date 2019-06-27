@@ -1,4 +1,4 @@
-const customer = require('../helpers/customerHelpers');
+const customer = require('../helpers/citizenHelpers');
 
 
 module.exports = (router) => {

@@ -8,13 +8,12 @@ module.exports.createCitizen = async (req, res) => {
     let response;
     try {
         let newCitizen = await citizenModel.create({
-            number: req.number,
-            address: req.address,
+            district:req.district,
             firstName: req.firstName,
             lastName: req.lastName,
+            login:req.login,
             email: req.email,
-            district: req.district,
-            password: await argon2.hash(req.password),
+            password: await argon2.hash(req.password)
         });
         response = JSON.stringify(newCitizen);
     } catch (e) {
