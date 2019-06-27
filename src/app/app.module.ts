@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DebatComponent } from './debat/debat.component';
+import { QuartierComponent } from './quartier/quartier.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { DebatComponent } from './debat/debat.component';
     HeaderComponent,
     FooterComponent,
     NavbarComponent,
-    DebatComponent
+    DebatComponent,
+    QuartierComponent
   ],
   imports: [
     BrowserModule,
