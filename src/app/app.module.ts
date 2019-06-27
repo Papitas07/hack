@@ -14,7 +14,7 @@ import { QuartierComponent } from './quartier/quartier.component';
   declarations: [
     AppComponent,
     BoiteAIdeeComponent,
-    QuartierComponent
+    QuartierComponent,
   ],
   imports: [
     BrowserModule,
