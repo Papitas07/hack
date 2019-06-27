@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { AgendaComponent } from './agenda/agenda.component';
 import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
 import { AppRoutingModule } from './app-routing.module';
+<<<<<<< HEAD
 import { TitreagendaComponent } from './titreagenda/titreagenda.component';
 
 import { FinancementComponent } from './financement/financement.component';
@@ -17,10 +18,17 @@ import { Projet2Component } from './projet2/projet2.component';
 import { Projet3Component } from './projet3/projet3.component';
 import { Projet4Component } from './projet4/projet4.component'
 import { QuartierComponent } from './quartier/quartier.component';
+=======
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { DebatComponent } from './debat/debat.component';
+>>>>>>> f3bd163856a9c15cde28bb8e9d1cec7e87991419
 
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     AgendaComponent,
     BoiteAIdeeComponent,
     TitreagendaComponent,
@@ -30,6 +38,13 @@ import { QuartierComponent } from './quartier/quartier.component';
     Projet3Component,
     Projet4Component,
     QuartierComponent
+=======
+    BoiteAIdeeComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavbarComponent,
+    DebatComponent
+>>>>>>> f3bd163856a9c15cde28bb8e9d1cec7e87991419
   ],
   imports: [
     BrowserModule,

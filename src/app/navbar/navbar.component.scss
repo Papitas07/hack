@@ -1,0 +1,48 @@
+
+  .navbar-light{
+    margin-bottom: .1em;
+ 
+  }
+  .nav-item{
+    flex: 1 1 0;
+    text-align: center;
+   
+   
+  }
+
+  .navbar-nav,
+  .mr-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: space-around;
+  
+  }
+  
+  .navBlack{
+    background-color: #3c424d;
+    border-bottom:.2em solid #ff897d;
+    box-shadow: 1px 1px 0 #c64867;
+   
+    
+  }
+  .navbar-light{
+     padding: 0;
+  //   margin-left: -4%;
+  //   margin-right: -2.2%;
+   }
+  .navNav{
+    padding: 0;
+  }
+   
+    .active {
+     background-color: white;
+      color :black !important;
+    
+    }
+ 
+   a {
+       
+      color: white !important;
+    
+      }
