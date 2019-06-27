@@ -19,11 +19,6 @@ const routes: Routes = [
     { path: 'projet2', component: Projet2Component},
     { path: 'projet3', component: Projet3Component},
     { path: 'projet4', component: Projet4Component},
-<<<<<<< HEAD
-    //{ path: 'agenda', component: AgendaComponent},
-=======
-   //{ path: 'agenda', component: AgendaComponent},
->>>>>>> features/createUser
     { path: 'agenda', component: TitreagendaComponent},
 ];
 

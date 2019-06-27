@@ -16,17 +16,14 @@ export class AgendaComponent implements OnInit {
     Id: 1,
     Subject: 'Fête du quartier',
     StartTime: new Date(2019, 6, 1, 19, 0),
-    EndTime: new Date(2019, 2, 15, 22, 0),
-    IsAllDay: false,
-
-    
+    EndTime: new Date(2019, 6, 1, 22, 0)   
   },
 {
   Id: 2,
-  Subject: 'Bambi2',
-  StartTime: new Date(2019, 5, 12, 12, 0),
-  EndTime: new Date(2019, 5, 12, 14, 0),
-  RecurrenceID: 1
+  Subject: 'Date limite participation renovation',
+  StartTime: new Date(2019, 6, 12, 12, 0),
+  EndTime: new Date(2019, 6, 12, 12, 30),
+  Description: 'Dernier jour pour participer financièrement ou humainement au projet de rénovation de la mairie',
 }]
 
   public selectedDate: Date = new Date(2019, 2, 15); 
