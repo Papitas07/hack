@@ -54,7 +54,6 @@ import { CreateCitizenComponent } from './create-citizen/create-citizen.componen
     CreateCitizenComponent
   ],
   imports: [
-    BrowserModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,

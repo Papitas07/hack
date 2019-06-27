@@ -8,6 +8,7 @@ import { Projet2Component } from './projet2/projet2.component';
 import { Projet3Component } from './projet3/projet3.component';
 import { Projet4Component } from './projet4/projet4.component';
 import { TitreagendaComponent } from './titreagenda/titreagenda.component';
+import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
 
 const routes: Routes = [
     { path: '', redirectTo: '/quartier', pathMatch: 'full' },
@@ -19,6 +20,7 @@ const routes: Routes = [
     { path: 'projet3', component: Projet3Component},
     { path: 'projet4', component: Projet4Component},
     { path: 'titreAgenda', component: TitreagendaComponent},
+    { path: 'boiteIdee', component: BoiteAIdeeComponent},
 ];
 
 @NgModule({
