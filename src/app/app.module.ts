@@ -8,11 +8,19 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
 import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { DebatComponent } from './debat/debat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BoiteAIdeeComponent
+    BoiteAIdeeComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavbarComponent,
+    DebatComponent
   ],
   imports: [
     BrowserModule,
