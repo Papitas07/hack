@@ -26,6 +26,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DebatComponent } from './debat/debat.component';
 import { CreateCitizenComponent } from './create-citizen/create-citizen.component';
 
+import { HomeComponent } from './home/home.component';
+
 
 
 @NgModule({
@@ -51,7 +53,8 @@ import { CreateCitizenComponent } from './create-citizen/create-citizen.componen
     NavbarComponent,
     DebatComponent,
     QuartierComponent,
-    CreateCitizenComponent
+    CreateCitizenComponent,
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,

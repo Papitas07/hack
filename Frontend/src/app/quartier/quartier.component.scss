@@ -1,18 +1,4 @@
-.center-block{
-    margin: 4%;
-}
 
-.pink-text{
-    color:black !important;
-}
-
-.btn-unique{
-color: #3c424d;
-}
-
-.btn{
-    background-color: #3c424d;
-}
 .default{
     position:relative;
     top:-500px;
@@ -32,4 +18,16 @@ color: #3c424d;
 
 .menu{
     opacity:.7;
+}
+.select {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: white, 5;
 }
