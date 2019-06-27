@@ -7,7 +7,6 @@ import { Projet1Component } from './projet1/projet1.component';
 import { Projet2Component } from './projet2/projet2.component';
 import { Projet3Component } from './projet3/projet3.component';
 import { Projet4Component } from './projet4/projet4.component';
-import { AgendaComponent } from './agenda/agenda.component';
 import { TitreagendaComponent } from './titreagenda/titreagenda.component';
 
 const routes: Routes = [
@@ -19,7 +18,7 @@ const routes: Routes = [
     { path: 'projet2', component: Projet2Component},
     { path: 'projet3', component: Projet3Component},
     { path: 'projet4', component: Projet4Component},
-    { path: 'agenda', component: TitreagendaComponent},
+    { path: 'titreAgenda', component: TitreagendaComponent},
 ];
 
 @NgModule({
