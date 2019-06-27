@@ -12,4 +12,8 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  go(element) {
+    document.getElementById('logo').blur();
+    console.log('click');
+  }
 }

@@ -24,6 +24,8 @@ import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DebatComponent } from './debat/debat.component';
 
+import { HomeComponent } from './home/home.component';
+
 
 
 @NgModule({
@@ -48,7 +50,9 @@ import { DebatComponent } from './debat/debat.component';
     FooterComponent,
     NavbarComponent,
     DebatComponent,
-    QuartierComponent
+    QuartierComponent,
+
+    HomeComponent
   ],
   imports: [
     BrowserAnimationsModule,

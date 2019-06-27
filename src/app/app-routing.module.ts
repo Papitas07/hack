@@ -10,6 +10,9 @@ import { Projet4Component } from './projet4/projet4.component';
 import { AgendaComponent } from './agenda/agenda.component';
 import { TitreagendaComponent } from './titreagenda/titreagenda.component';
 import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+
 
 const routes: Routes = [
     { path: '', redirectTo: '/quartier', pathMatch: 'full' },
@@ -23,10 +26,13 @@ const routes: Routes = [
     { path: 'agenda', component: AgendaComponent},
     { path: 'titreAgenda', component: TitreagendaComponent},
     { path: 'boiteIdee', component: BoiteAIdeeComponent},
+    { path: 'quartier', component: HeaderComponent},
+    { path: 'home', component: HomeComponent},
+  
 ];
 
 @NgModule({
- imports: [RouterModule.forRoot(routes)],
+ imports: [RouterModule.forRoot(routes , { enableTracing: true })],
  exports: [RouterModule]
 })
 export class AppRoutingModule { }
