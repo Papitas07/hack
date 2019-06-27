@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { DayService, WeekService, MonthService, AgendaService, MonthAgendaService, TimelineViewsService, TimelineMonthService } from '@syncfusion/ej2-angular-schedule';
+import { DayService, WeekService, MonthService, AgendaService, MonthAgendaService,
+   TimelineViewsService, TimelineMonthService } from '@syncfusion/ej2-angular-schedule';
 
 @Component({
   selector: 'app-root',
