@@ -5,7 +5,7 @@ import { DayService, WeekService, MonthService, AgendaService, MonthAgendaServic
 
 @Component({
   selector: 'app-agenda',
-  template: `<ejs-schedule width='75%' height='500px' [eventSettings]='eventSettings'></ejs-schedule>`,
+  template: `<ejs-schedule mx-5 width='75%' height='500px' [eventSettings]='eventSettings'></ejs-schedule>`,
   styleUrls: ['./agenda.component.scss'],
   providers: [DayService, WeekService, MonthService, AgendaService, MonthAgendaService, TimelineViewsService, TimelineMonthService]
 
