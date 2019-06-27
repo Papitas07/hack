@@ -60,7 +60,8 @@ import { CreateCitizenComponent } from './create-citizen/create-citizen.componen
     FormsModule,
     ScheduleModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [DayService, 
     WeekService, 

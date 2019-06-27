@@ -1,1 +1,73 @@
 
+<div class="container-fluid">
+  <form [formGroup]="createUser" (ngSubmit)="createUser.valid && onSubmit()" #myForm="ngForm">
+
+      <div class="form-row">
+
+          <div class="col-md-8">
+
+              <div class="md-form form-group">
+
+                  <input mdbInput type="text" class="form-control" id="inputSociete4MD" formControlName="society"
+                      placeholer="Société">
+                  <label for="inputSociete4MD">Society</label>
+
+              </div>
+
+          </div>
+
+      </div>
+
+      <div class="form-row">
+
+          <div class="col-md-4">
+
+              <div class="md-form form-group">
+
+                  <input mdbInput type="text" class="form-control" formControlName="lastName" id="inputLastname4MD"
+                      placeholder="Lastname">
+                  <label for="inputLastname4MD">Lastname</label>
+                  
+              </div>
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="md-form form-group">
+                  <input mdbInput type="text" class="form-control" formControlName="firstName" id="inputFirstname4MD" placeholder="Firstname">
+                  <label for="inputFirstname4MD">Firstname</label>
+              </div>
+          </div>
+
+      </div>
+
+      <div class="form-row">
+
+          <div class="col-md-4">
+
+              <div class="md-form form-group">
+
+                  <input mdbInput type="text" class="form-control" formControlName="email" id="inputEmail4MD"
+                      placeholder="Email">
+                  <label for="inputEmail4MD">Email</label>
+
+              </div>
+
+          </div>
+
+          <div class="col-md-4">
+
+              <div class="md-form form-group">
+
+                  <input mdbInput type="text" class="form-control" formControlName="password" id="inputPassword4MD" placeholder="Mot de passe">
+                  <label for="inputPassword4MD">Mot de passe</label>
+
+              </div>
+
+          </div>
+
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-md">Créer l'utilisateur</button>
+  </form>
+</div>
