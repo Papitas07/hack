@@ -9,15 +9,14 @@ import { FormsModule } from '@angular/forms';
 import { AgendaComponent } from './agenda/agenda.component';
 import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TitreagendaComponent } from './titreagenda/titreagenda.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    AgendaComponent
-=======
-    BoiteAIdeeComponent
->>>>>>> dev
+    AgendaComponent,
+    BoiteAIdeeComponent,
+    TitreagendaComponent
   ],
   imports: [
     BrowserModule,
