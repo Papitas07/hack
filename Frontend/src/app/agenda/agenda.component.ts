@@ -18,8 +18,7 @@ export class AgendaComponent implements OnInit {
     StartTime: new Date(2019, 2, 15, 9, 0),
     EndTime: new Date(2019, 2, 15, 12, 30),
     IsAllDay: false,
-    RecurrenceRule: 'FREQ=DAILY;INTERVAL=1;COUNT=8',
-    RecurrenceException: '20180130T043000Z'
+
     
   },
 {
