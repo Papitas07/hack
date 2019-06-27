@@ -11,7 +11,8 @@ import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
 import { AppRoutingModule } from './app-routing.module';
 
 import { TitreagendaComponent } from './titreagenda/titreagenda.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
 import { FinancementComponent } from './financement/financement.component';
 import { Projet1Component } from './projet1/projet1.component';
 import { Projet2Component } from './projet2/projet2.component';
@@ -23,6 +24,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DebatComponent } from './debat/debat.component';
+import { CreateCitizenComponent } from './create-citizen/create-citizen.component';
 
 
 
@@ -48,7 +50,8 @@ import { DebatComponent } from './debat/debat.component';
     FooterComponent,
     NavbarComponent,
     DebatComponent,
-    QuartierComponent
+    QuartierComponent,
+    CreateCitizenComponent
   ],
   imports: [
     BrowserModule,
@@ -57,6 +60,7 @@ import { DebatComponent } from './debat/debat.component';
     FormsModule,
     ScheduleModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [DayService, 
     WeekService, 
