@@ -14,13 +14,11 @@ export class AgendaComponent implements OnInit {
   
   public data: object[] = [{
     Id: 1,
-    Subject: 'Bambi',
-    StartTime: new Date(2019, 2, 15, 9, 0),
-    EndTime: new Date(2019, 2, 15, 12, 30),
+    Subject: 'Fête du quartier',
+    StartTime: new Date(2019, 6, 1, 19, 0),
+    EndTime: new Date(2019, 2, 15, 22, 0),
     IsAllDay: false,
-    RecurrenceRule: 'FREQ=DAILY;INTERVAL=1;COUNT=8',
-    RecurrenceException: '20180130T043000Z'
-    
+
   },
 {
   Id: 2,
