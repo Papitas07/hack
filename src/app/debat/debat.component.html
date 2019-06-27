@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+
+<h1 class="planning mt-0 mb-3 text-center">DEBAT</h1>
+<h2 class="planning mt-0 mb-3 text-center">District 6</h2>
+<hr>
+
+<mdb-carousel [isControls]="true" class="carousel-multi-item " [type]="'carousel-multi-item'"
+  >
+  <mdb-carousel-item *ngFor="let item of slides; let i = index">
+    <div class="col-md-4" [ngClass]="{'d-none d-md-block': cardIndex !== 0}" *ngFor="let card of item; let cardIndex = index">
+      <mdb-card class="my-1">
+        <mdb-card-img [src]="card.img" alt="Card image cap"></mdb-card-img>
+        <mdb-card-body>
+          <mdb-card-title>
+            <h4>{{card.title}}</h4>
+          </mdb-card-title>
+          <p>{{card.description}}</p>
+          <a href="#" mdbBtn color="white" class="waves-light btn " mdbWavesEffect>{{card.buttonText}}</a>
+          <a href="#" mdbBtn color="white" class="waves-light btn " mdbWavesEffect>{{card.buttonTextUn}}</a>
+          <a href="#" mdbBtn color="white" class="waves-light btn " mdbWavesEffect>{{card.buttonTextDeux}}</a>
+        </mdb-card-body>
+      </mdb-card>
+    </div>
+  </mdb-carousel-item>
+</mdb-carousel>
+
+
+<!-- <div class="card" style="width: 18rem;">
+  <img class="card-img-top"
+    src="https://www.lechorepublicain.fr/photoSRC/VVNUJ1paUTgIBhVOCRAHHQ4zRSkXaldfVR5dW1sXVA49/canicule_4391585.jpeg"
+    alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text">Faut-il fermer les écoles en période de canicule?</p>
+  </div>
+</div>
+<div class="col-12 text-center">
+  <div class="btn-group-vertical">
+    <button type="button" class="btn btn-outline center-block boutondebat">Pour</button>
+    <button type="button" class="btn btn-outline boutondebat">Contre</button>
+    <button type="button" class="btn btn-outline boutondebat">Sans Opinion</button>
+
+
+  </div>
+</div> -->
+<br>
