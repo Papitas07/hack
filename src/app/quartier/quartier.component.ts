@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-quartier',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuartierComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router:Router) { }
   optionsSelect: Array<any>;
   ngOnInit() {
     this.optionsSelect = [
@@ -18,4 +19,7 @@ export class QuartierComponent implements OnInit {
     
   }
 
+  redirectToHome(){
+    this.router.navigate(['/home'])
+  }
 }
