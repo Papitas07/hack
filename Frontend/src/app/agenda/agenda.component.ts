@@ -19,6 +19,7 @@ export class AgendaComponent implements OnInit {
     EndTime: new Date(2019, 2, 15, 22, 0),
     IsAllDay: false,
 
+    
   },
 {
   Id: 2,
