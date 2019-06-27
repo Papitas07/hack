@@ -19,8 +19,8 @@ const routes: Routes = [
     { path: 'projet2', component: Projet2Component},
     { path: 'projet3', component: Projet3Component},
     { path: 'projet4', component: Projet4Component},
-    { path: 'agenda', component: AgendaComponent},
-    { path: 'titreAgenda', component: TitreagendaComponent},
+    //{ path: 'agenda', component: AgendaComponent},
+    { path: 'agenda', component: TitreagendaComponent},
 ];
 
 @NgModule({
