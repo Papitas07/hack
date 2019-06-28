@@ -21,27 +21,22 @@ ideaForm:FormGroup = this.fb.group({
 
     this.idea.content = this.ideaForm.value;
     this.idea.createIdea(this.idea.content);
-
+    this.idea.getLastIdea().subscribe(response=>{
+      
+      this.myIdea = response;
+      console.log(this.myIdea)
+      
+    })
     
     console.log(this.ideaForm.value as JSON);
   }
 
   ngOnInit() {
-    this.idea.getLastIdea().subscribe(response=>{
-      
-      this.myIdea = response;
-      console.log(this.myIdea)
-      
-    })
+
   }
 
   ngOnChanges() {
-    this.idea.getLastIdea().subscribe(response=>{
-      
-      this.myIdea = response;
-      console.log(this.myIdea)
-      
-    })
+ 
   }
 
 }
