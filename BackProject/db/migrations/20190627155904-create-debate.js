@@ -12,13 +12,13 @@ module.exports = {
         type: Sequelize.STRING
       },
       yes: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       no: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       so: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       createdAt: {
         allowNull: false,

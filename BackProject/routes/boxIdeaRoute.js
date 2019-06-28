@@ -12,9 +12,9 @@ module.exports = (router) => {
     //     ideas.createideas(req,res).then()
     // })
 
-    router.post('/boxideas', (req,res) => {
+    router.post('/boxideas',  (req,res) => {
         
-        ideas.createIdea(req,res).then(ideas => res.json(ideas));
+        ideas.createIdea(req.body,res).then(ideas => res.json({ideas,msg: 'Created successfully'}));
     });
 
-};
+};   

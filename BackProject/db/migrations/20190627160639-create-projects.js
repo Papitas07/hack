@@ -9,10 +9,10 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       totalCost: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       citizenID: {
-        type: Sequelize.NUMBER
+        type: Sequelize.INTEGER
       },
       projectName: {
         type: Sequelize.STRING

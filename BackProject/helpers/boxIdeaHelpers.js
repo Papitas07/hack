@@ -5,8 +5,9 @@ module.exports.createIdea = async (req, res) => {
 
     let response;
     try {
+        console.log(req.idea)
         let newIdea = await boxIdeaModel.create({
-            content:req.content,
+            content:req.idea,
             citizenID:req.citizenID
 
         });

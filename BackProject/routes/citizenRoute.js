@@ -19,7 +19,7 @@ module.exports = (router) => {
   // Route qui récupère les données fournies et enregistre un nouveau client.
 
   router.post('/register', function (req, res) {
-
+    console.log(req)
     customer.createCitizen(req.body, res).then(user =>
       res.json({ user, msg: 'Account created successfully.' })
     );
