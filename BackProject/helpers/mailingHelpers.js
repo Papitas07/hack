@@ -25,8 +25,8 @@ module.exports.mailing = async (customer, res) => {
             from: '"Rémy"<teissier.remy@gmail.com>',
             to: customer.email,
             subject: 'Applyvrac, informations utilisateur',
-            text: "Bienvenue chez ApplyVrac",
-            html: `<b>Welcome<b><span>Login: ${customer.society}, Password: ${customer.password}</span>`
+            text: "Vos identifiants: ",
+            html: `<b>Welcome<b><span> Login: ${customer.society}, Password: ${customer.password}</span>`
         });
 
         return info

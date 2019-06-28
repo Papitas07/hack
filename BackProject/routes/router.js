@@ -4,6 +4,8 @@ module.exports = (app) => {
     const customerRoute = require('./citizenRoute')(router);
     const authRoute = require('./authRoute')(router);
     const mailingRoute = require('./mailingRoute')(router);
+    const boxIdeaRoute = require('./boxIdeaRoute')(router);
+
     // const articleRoute = require('./articleRoute')(router);
     // const foodRoute = require('./foodRoute')(router);
     //idBox route pour stocker les paragraphes et pour get les paragraphes
