@@ -28,7 +28,25 @@ import { CreateCitizenComponent } from './create-citizen/create-citizen.componen
 
 import { HomeComponent } from './home/home.component';
 
+import { AngularFireModule } from "@angular/fire";
+import { AngularFireAuthModule } from "@angular/fire/auth";
+import { AdminComponent } from './admin/admin.component';
+import { ProjectComponent } from './admin/project/project.component';
+import { ProjectCreateComponent } from './admin/project-create/project-create.component';
+import { ProjectListComponent } from './admin/project-list/project-list.component';
+import { ProjectUpdateComponent } from './admin/project-update/project-update.component';
+import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './admin/login/login.component'
 
+
+var config = {
+  apiKey: "AIzaSyAsZ_l3TdtZg27xubszkJWKPa2_EImW0A0",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  databaseURL: "YOUR_DATABASE_URL",
+  projectId: "hack-d77ae",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID"
+};
 
 @NgModule({
   declarations: [
@@ -47,14 +65,20 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     NavbarComponent,
     DebatComponent,
-
+    LoginComponent,
     HeaderComponent,
     FooterComponent,
     NavbarComponent,
     DebatComponent,
     QuartierComponent,
     CreateCitizenComponent,
-    HomeComponent
+    HomeComponent,
+    AdminComponent,
+    ProjectComponent,
+    ProjectCreateComponent,
+    ProjectListComponent,
+    ProjectUpdateComponent,
+    ContactComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -63,7 +87,9 @@ import { HomeComponent } from './home/home.component';
     ScheduleModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AngularFireModule.initializeApp(config),
+    AngularFireAuthModule
   ],
   providers: [DayService, 
     WeekService, 

@@ -11,10 +11,11 @@ import { TitreagendaComponent } from './titreagenda/titreagenda.component';
 import { BoiteAIdeeComponent } from './boite-aidee/boite-aidee.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-
+import { ContactComponent } from './contact/contact.component'
+import { AdminComponent } from './admin/admin.component';
 
 const routes: Routes = [
-    { path: '', redirectTo: '/quartier', pathMatch: 'full' },
+    { path: '', redirectTo: '/admin', pathMatch: 'full' },
     { path: 'quartier', component: QuartierComponent },
     { path: 'boiteaidee', component: BoiteAIdeeComponent },
     { path: 'debat', component: DebatComponent },
@@ -27,7 +28,9 @@ const routes: Routes = [
     { path: 'boiteIdee', component: BoiteAIdeeComponent},
     { path: 'quartier', component: HeaderComponent},
     { path: 'home', component: HomeComponent},
-  
+    { path: 'contact', component: ContactComponent},
+    { path: 'admin', component: AdminComponent},
+
 ];
 
 @NgModule({
