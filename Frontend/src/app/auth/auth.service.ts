@@ -26,7 +26,7 @@ export class AuthService {
 
     try {
         await  this.afAuth.auth.signInWithEmailAndPassword(email, password)
-        this.router.navigate(['admin/list']);
+        this.router.navigate(['/quartier']);
     } catch (e) {
         alert("Error!"  +  e.message);
     }
@@ -34,7 +34,7 @@ export class AuthService {
     async logout(){
       await this.afAuth.auth.signOut();
       localStorage.removeItem('user');
-      this.router.navigate(['admin/login']);
+      this.router.navigate(['/admin']);
   }
   get isLoggedIn(): boolean {
     const  user  =  JSON.parse(localStorage.getItem('user'));
