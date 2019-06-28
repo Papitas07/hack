@@ -19,7 +19,7 @@ export class DebatComponent implements OnInit {
   },
   {
     title: 'Eclairage',
-    description: 'Doit-on couper l éclairage public de nuit ?',
+    description: 'Doit-on couper l\'éclairage public de nuit ?',
     buttonText: 'Pour',
     buttonTextUn: 'Contre',
     buttonTextDeux: 'Sans Opinion',
@@ -35,7 +35,7 @@ export class DebatComponent implements OnInit {
   },
   {
     title: 'Trotinette',
-    description: 'Les trottinettes électriques sont-elles un danger pour les citoyens?',
+    description: 'Les trottinettes électriques sont-elles un danger?',
     buttonText: 'Pour',
     buttonTextUn: 'Contre',
     buttonTextDeux: 'Sans Opinion',

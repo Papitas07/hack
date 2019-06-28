@@ -1,15 +1,33 @@
-.center-block{
-    margin: 4%;
+
+.default{
+    position:relative;
+    top:-500px;
+    margin-left:25%;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    opacity:.5;
+    
+    
+   
+}
+.imgHome{
+    max-width: 100%;
+    height:auto;
 }
 
-.pink-text{
-    color:black !important;
+.menu{
+    opacity:.7;
 }
-
-.btn-unique{
-color: #3c424d;
-}
-
-.btn{
-    background-color: #3c424d;
+.select {
+    display: none; 
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: white, 5;
 }
