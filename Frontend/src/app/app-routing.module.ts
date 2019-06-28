@@ -16,6 +16,7 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
     { path: '', redirectTo: '/quartier', pathMatch: 'full' },
     { path: 'quartier', component: QuartierComponent },
+    { path: 'boiteaidee', component: BoiteAIdeeComponent },
     { path: 'debat', component: DebatComponent },
     { path: 'financement', component: FinancementComponent },
     { path: 'projet1', component: Projet1Component},
