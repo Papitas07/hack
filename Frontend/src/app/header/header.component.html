@@ -1,2 +1,8 @@
 <img id="logo" #logoRef class = "logoHeader" (click)="go()" [routerLink]="['/quartier']"
  src="assets/aucoeurdemaville.png">
+
+ <li  *ngIf="authService.isLoggedIn" class="nav-item">
+        <a class="nav-link"  (click)="authService.logout()">Logout</a>
+    </li>
+
+  
