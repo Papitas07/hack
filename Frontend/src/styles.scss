@@ -10,11 +10,10 @@
 @import '../node_modules/@syncfusion/ej2-angular-schedule/styles/material.css';
 @import url('https://fonts.googleapis.com/css?family=Quando&display=swap');
 
-body{
-    font-family: 'Quando', serif;
-}
 
-h1
+
+h1, h2
 {
 text-align: center;
+font-family: 'Quando', serif;
 }
